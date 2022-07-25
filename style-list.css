@@ -1,0 +1,106 @@
+* {
+    font-family: "Open Sans", sans-serif;
+  }
+  
+  body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    min-height: 70vh;
+    background-color: white;
+    max-width: 90%;
+  }
+
+  .title{   
+    width: 80%; 
+    color: blue;
+    background-color: rgba(10, 222, 120, 0.174);
+    padding: 10px;
+    max-height: none;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+    border: 1.5px rgb(23, 121, 178) solid;
+  }
+
+  .text{
+    color: rgb(14, 16, 16);
+    border-radius: 10px;
+    border: 1.5px rgb(23, 121, 178) solid;
+    background-color: rgba(20, 237, 237, 0.134);
+    padding: 0px;
+    margin: 10px;
+   
+    
+  }
+  
+  button {
+    border: 1px solid rgb(164, 49, 68);
+    border-radius: 5px;
+    background-color: rgb(13, 243, 51);
+    color: black;
+    text-align: center;
+    padding: 10px;
+  }
+  
+  input[type="text"] {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid rgb(164, 49, 68);
+  }
+  
+  #tasks {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+  }
+  
+  .task-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  :checked + label {
+    text-decoration: line-through;
+    color: grey;
+  }
+
+p,
+label {
+    font: 1.3rem 'Fira Sans', sans-serif;
+}
+
+input {
+    margin: .3rem;
+}
+
+.delete{
+    padding: 5px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    
+}
+
+.btn{
+    background-color: rgb(210, 8, 12);
+    color: white;
+}
+
+.container{
+    padding: 20px;
+    border: 1px solid rgb(16, 142, 232);
+}
+
+.form-control{
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}

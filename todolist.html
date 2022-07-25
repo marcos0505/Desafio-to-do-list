@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/style-list.css"/>
+    <title>To-do list</title>
+</head>
+<body>
+    <div class="title">
+        <h1>Desafio: To-do list</h1>
+    </div>
+    <div class="text">
+        <p>Fazendo o desafio!</p>
+    </div>
+
+    <div id="list">
+        <form id="task-form">
+            <input id="task-input" name="tarefa" type="text" placeholder="Digite a tarefa desejada" />
+            <button type="submit">Adicionar tarefa</button>
+        </form>
+        <div id="tasks"></div>
+    </div>
+
+    <fieldset class="container">
+            
+        <div class="box">
+          <input type="checkbox" id="lavar" name="lavar">
+          <label for="lavar">lavar a louça</label>
+        </div>
+    
+        <div class="box">
+          <input type="checkbox" id="aula" name="aula">
+          <label for="aula">assistir aula 1</label>
+        </div>
+
+        <div class="box">
+            <input type="checkbox" id="escola" name="escola">
+            <label for="escola">ligar para escola</label>
+          </div>
+    </fieldset>
+
+    <form>
+        <div>
+          <label class="form-control" for=" = "apagarItem"> Deletar item selecionado? </label>
+        </div>
+        <div class="delete">
+          <button class="btn" type = "delete"> Deletar </button>
+        </div>
+      </form>
+    <script src="assets/js/script-list.js"></script>
+</body>
+</html>
